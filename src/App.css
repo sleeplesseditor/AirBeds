@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  padding-top: 52px;
+}
+
+.container .nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FF3A4E;
+  color: #fff;
+  height: 52px;
+  padding: 0 25px;
+}
+
+.container .left-col {
+  width: 320px;
+  height: 100%;
+  padding: 15px 20px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  border-right: 1px solid #f0f0f0;
+}
